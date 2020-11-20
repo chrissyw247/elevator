@@ -1,0 +1,15 @@
+Ball Tutorial
+
+Project Overview
+The goal of this tutorial was to learn how to set goals for animation, how to do squash and stretch, seeing up a hierarchy to separate transformations, how to adjust animation curves 
+
+Artist Goals
+Visually the goal was to make a pretty goopy ball that squashed and and stretched on impact. We also wanted to eliminate weirdness like the ball rolling on the bounce or sliding when it should be rolling.
+
+Challenges
+
+I struggled with differentiating between the rotate node and the transform/scale node, at first I put everything on the rotate node. 
+
+I was confused about how we were able to set different pivots for a group and things within that group. 
+
+Also, I struggled with the one step in the tutorial about not creating an ease in/out on the acceleration/deceleration. However, I think I figured it out? Not sure because I had to put the two inside points pretty close to the corners so that the point of impact would be "flat" ie there wouldn't be any forward motion. 

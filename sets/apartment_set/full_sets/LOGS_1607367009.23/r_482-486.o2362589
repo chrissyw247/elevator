@@ -1,0 +1,116 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene6_shot4_try2_actual -s 482 -e 486 -cam shot2 /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene6_Shot2_2.mb
+00:00:00   436MB         | log started Mon Dec  7 15:16:01 2020
+00:00:00   436MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   436MB         | running on mblade1308, pid=11302
+00:00:00   436MB         |  4 x AMD Opteron(tm) Processor 6378 (32 cores, 64 logical) with 257933MB
+00:00:00   436MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-12-amd64
+00:00:00   436MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   436MB         |  
+00:00:00   436MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   441MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   442MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   442MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   443MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   443MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   443MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   443MB         | loaded 6 plugins from 4 lib(s) in 0:00.01
+libai.so already loaded
+00:00:05   685MB WARNING | unable to create thread. Resource temporarily unavailable
+00:00:05   685MB WARNING | unable to create thread. Resource temporarily unavailable
+00:00:05   685MB FATAL   | unable to create work scheduler thread
+00:00:05   685MB ERROR   | signal caught: SIGABRT -- Abnormal process abort
+
+****
+* Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+* CRASHED in gsignal at 00:00:00
+* signal caught: SIGABRT -- Abnormal process abort
+*
+* backtrace:
+*  0 0x000015025557381d [libai.so            ] AiADPDialogStrings                                                                  
+*  1 0x00001502bf2f272f [libpthread.so.0     ]                                                                                     
+>> 2 0x00001502bf14f7ba [libc.so.6           ] gsignal                                                                             
+*  3 0x00001502bf14f7ba [libc.so.6           ] gsignal                                                                             
+*  4 0x000015025520c32f [libai.so            ]                                                                                     
+*  5 0x000015025520df54 [libai.so            ]                                                                                     
+*  6 0x000015025526833d [libai.so            ] AiMsgFatal                                                                          
+*  7 0x000015025557f4ba [libai.so            ]                                                                                     
+*  8 0x0000150255258c4a [libai.so            ] AiMakeTx                                                                            
+*  9 0x00001502900c0314 [libmtoa_api.so      ] CArnoldSession::ExportTxFiles()                                                     
+* 10 0x00001502900c99ca [libmtoa_api.so      ] CArnoldSession::Export(Autodesk::Maya::OpenMaya20200000::MSelectionList*)           
+* 11 0x00001502900f1f1c [libmtoa_api.so      ] CMayaScene::Export(Autodesk::Maya::OpenMaya20200000::MSelectionList*)               
+* 12 0x000015029041b0b7 [mtoa.so             ]                                                                                     [:?]
+* 13 0x00001502cd8bbdc6 [libOpenMaya.so      ] THcommandObject::doIt(TargList&)                                                    
+* 14 0x00001502c47c0749 [libCommandEngine.so ] TmetaCommand::doCommand(TargList&)                                                  
+* 15 0x00001502c4823658 [libCommandEngine.so ] TpythonInterpreter::dispatchMayaCommand(TmetaCommand&, _object*, _object*)          
+* 16 0x00001502c4823c69 [libCommandEngine.so ] TpythonInterpreter::genericDispatchFunction(_object*, _object*, _object*)           
+* 17 0x00001502c25f9c72 [libpython2.7.so.1.0 ] PyObject_Call                                                                       
+* 18 0x00001502c26a3592 [libpython2.7.so.1.0 ] PyEval_CallObjectWithKeywords                                                       
+* 19 0x00001502c26a2f40 [libpython2.7.so.1.0 ]                                                                                     
+* 20 0x00001502c26acd74 [libpython2.7.so.1.0 ] PyEval_EvalFrameEx                                                                  
+* 21 0x00001502c26ad98d [libpython2.7.so.1.0 ] PyEval_EvalCodeEx                                                                   
+* 22 0x00001502c26293f7 [libpython2.7.so.1.0 ]                                                                                     
+* 23 0x00001502c25f9c72 [libpython2.7.so.1.0 ] PyObject_Call                                                                       
+* 24 0x00001502c26aa6f6 [libpython2.7.so.1.0 ] PyEval_EvalFrameEx                                                                  
+* 25 0x00001502c26ad98d [libpython2.7.so.1.0 ] PyEval_EvalCodeEx                                                                   
+* 26 0x00001502c26ac9b4 [libpython2.7.so.1.0 ] PyEval_EvalFrameEx                                                                  
+* 27 0x00001502c26ad98d [libpython2.7.so.1.0 ] PyEval_EvalCodeEx                                                                   
+* 28 0x00001502c26adaa1 [libpython2.7.so.1.0 ] PyEval_EvalCode                                                                     
+* 29 0x00001502c48228c6 [libCommandEngine.so ] TpythonInterpreter::executeCommand(Tstring const&, bool, bool, TinterpreterResult*) 
+* 30 0x00001502c4842987 [libCommandEngine.so ] TpythonInterpreter::genericDispatchFunction(_object*, _object*, _object*)           
+* 31 0x00001502c47c2270 [libCommandEngine.so ]                                                                                     
+* 32 0x00001502c47f1660 [libCommandEngine.so ] TpythonInterpreter::executeCommand(Tstring const&, bool, bool, TinterpreterResult*) 
+* 33 0x00001502c4818244 [libCommandEngine.so ]                                                                                     
+* 34 0x00001502c47f1660 [libCommandEngine.so ] TpythonFlagException::errorMessage()                                                
+* 35 0x00001502c47f1830 [libCommandEngine.so ]                                                                                     
+* 36 0x00001502c4814afc [libCommandEngine.so ] SophiaExecutable::evaluate(void*)                                                   
+* 37 0x00001502c47c846c [libCommandEngine.so ] TcommandEngine::executeCommand(SophiaExecutable*)                                   
+* 38 0x00001502c4de9319 [libExtensionLayer.so]                                                                                     
+* 39 0x00001502c47c2270 [libCommandEngine.so ] mellex                                                                              
+* 40 0x00001502c47f1660 [libCommandEngine.so ]                                                                                     
+* 41 0x00001502c4816d6c [libCommandEngine.so ] setMelGlobalStackLevelPtr(unsigned int (*)                                          
+* 42 0x00001502c4816257 [libCommandEngine.so ]                                                                                     
+* 43 0x00001502c47f1660 [libCommandEngine.so ] mellex                                                                              
+* 44 0x00001502c4816436 [libCommandEngine.so ]                                                                                     
+* 45 0x00001502c47f1660 [libCommandEngine.so ] mellex                                                                              
+* 46 0x00001502c48162f0 [libCommandEngine.so ]                                                                                     
+* 47 0x00001502c47f1660 [libCommandEngine.so ] SophiaExecutable::evaluate(void*)                                                   
+* 48 0x00001502c48162f0 [libCommandEngine.so ]                                                                                     
+* 49 0x00001502c47f1660 [libCommandEngine.so ] TcommandEngine::executeCommand(SophiaExecutable*)                                   
+* 50 0x00001502c481673b [libCommandEngine.so ]                                                                                     
+* 51 0x00001502c47f1660 [libCommandEngine.so ] TmetaCommand::setUnloadable(bool)                                                   
+* 52 0x00001502c4818244 [libCommandEngine.so ]                                                                                     
+* 53 0x00001502c47f1660 [libCommandEngine.so ] mellex                                                                              
+* 54 0x00001502c4818244 [libCommandEngine.so ]                                                                                     
+* 55 0x00001502c47f1660 [libCommandEngine.so ] setMelGlobalStackLevelPtr(unsigned int (*)                                          
+* 56 0x00001502c4816d6c [libCommandEngine.so ]                                                                                     
+* 57 0x00001502c4816377 [libCommandEngine.so ] setMelGlobalStackLevelPtr(unsigned int (*)                                          
+* 58 0x00001502c47f1660 [libCommandEngine.so ]                                                                                     
+* 59 0x00001502c4816436 [libCommandEngine.so ] mellex                                                                              
+* 60 0x00001502c47f1660 [libCommandEngine.so ]                                                                                     
+* 61 0x00001502c47f1830 [libCommandEngine.so ] setMelGlobalStackLevelPtr(unsigned int (*)                                          
+* 62 0x00001502c4814afc [libCommandEngine.so ] SophiaExecutable::evaluate(void*)                                                   
+* 63 0x00001502c47cbc39 [libCommandEngine.so ] TcommandEngine::sourceFile(Tstring const&)                                          
+* 64 0x0000000000414a92 [maya.bin            ]                                                                                     
+* 65 0x000000000040de31 [maya.bin            ]                                                                                     
+* 66 0x00001502c4db146c [libExtensionLayer.so] Tapplication::start()                                                               
+* 67 0x000000000040ee98 [maya.bin            ]                                                                                     
+* 68 0x000000000040d435 [maya.bin            ]                                                                                     
+* 69 0x00001502bf13c09a [libc.so.6           ] __libc_start_main                                                                   
+* 70 0x000000000040d879 [maya.bin            ]                                                                                     
+*
+* loaded modules:
+*    0x0000150254630000  libai.so
+*    0x00001502bf2e0000  libpthread.so.0
+*    0x00001502bf118000  libc.so.6
+*    0x0000150290040000  libmtoa_api.so
+*    0x0000150290378000  mtoa.so
+*    0x00001502cd6e8000  libOpenMaya.so
+*    0x00001502c4768000  libCommandEngine.so
+*    0x00001502c25b0000  libpython2.7.so.1.0
+*    0x00001502c4bb8000  libExtensionLayer.so
+*    0x0000000000400000  maya.bin
+*
+* memory: VM 6186 MB, RSS 687 MB, 0 page faults
+****
+Done rendering.

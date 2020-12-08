@@ -1,0 +1,30 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene2_shot2_o -s 564 -e 650 -cam camera_stew_entering_elevator /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene2_Shot2.mb
+00:00:00   439MB         | log started Sun Dec  6 22:29:47 2020
+00:00:00   439MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   439MB         | running on smblade16a6, pid=45946
+00:00:00   439MB         |  2 x Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz (24 cores, 48 logical) with 257821MB
+00:00:00   439MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-12-amd64
+00:00:00   439MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   439MB         |  
+00:00:00   439MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   439MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   439MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   439MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   439MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   446MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   447MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   447MB         | loaded 6 plugins from 4 lib(s) in 0:00.00
+libai.so already loaded
+00:00:03   828MB WARNING |  /cameras/camera_stew_entering_elevator/camera_stew_entering_elevatorShape: ignoring scaling component in camera matrix
+00:00:01  1152MB ERROR   | [mtoa] Could not read mtoa built-in metadata file "/usr/autodesk/arnold/maya2020/plug-ins/mtoa.mtd"
+00:00:01  1152MB WARNING |   [mtoa.translator]  jpeg: Maya node defaultArnoldDriver(aiAOVDriver) does not have attribute filename to match parameter filename on Arnold node defaultArnoldDriver/driver_jpeg(driver_jpeg).
+00:00:01  1152MB WARNING |   [mtoa.translator]  jpeg: Maya node defaultArnoldDriver(aiAOVDriver) does not have attribute colorSpace to match parameter color_space on Arnold node defaultArnoldDriver/driver_jpeg(driver_jpeg).
+00:00:23  1152MB WARNING |  [mtoa.translator]  <built-in>: Maya node butternut3:aiStandardSurface1(aiStandardSurface) does not have attribute normal to match parameter normal on Arnold node butternut3:aiStandardSurface1(standard_surface).
+00:00:23  1152MB WARNING |  [mtoa.translator]  <built-in>: Maya node butternut3:aiStandardSurface1(aiStandardSurface) does not have attribute coatAffectColor to match parameter coat_affect_color on Arnold node butternut3:aiStandardSurface1(standard_surface).
+00:00:23  1152MB WARNING |  [mtoa.translator]  <built-in>: Maya node butternut3:aiStandardSurface1(aiStandardSurface) does not have attribute coatAffectRoughness to match parameter coat_affect_roughness on Arnold node butternut3:aiStandardSurface1(standard_surface).
+00:09:09  1090MB ERROR   |   signal caught: SIGSEGV -- Invalid memory reference
+
+****
+* Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+Done rendering.

@@ -1,0 +1,8 @@
+{
+    "end": "670", 
+    "extra": "", 
+    "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene2_Shot6_png.mb", 
+    "start": "550", 
+    "camera": "behind_butternut", 
+    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene2_shot6_png"
+}

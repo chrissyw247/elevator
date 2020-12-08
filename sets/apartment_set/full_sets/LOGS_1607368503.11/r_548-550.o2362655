@@ -1,0 +1,63 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene6_shot5_fixed_door_actual -s 548 -e 550 -cam shot3 /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene6_Shot3_2.mb
+00:00:00   439MB         | log started Mon Dec  7 15:16:34 2020
+00:00:00   439MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   439MB         | running on smblade16a3, pid=15354
+00:00:00   439MB         |  2 x Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz (24 cores, 48 logical) with 257843MB
+00:00:00   439MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-12-amd64
+00:00:00   439MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   439MB         |  
+00:00:00   439MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   439MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   439MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   439MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   439MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   444MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   445MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   445MB         | loaded 6 plugins from 4 lib(s) in 0:00.01
+libai.so already loaded
+00:00:09   744MB ERROR   | signal caught: SIGABRT -- Abnormal process abort
+
+****
+* Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+* CRASHED in gsignal at 00:00:00
+* signal caught: SIGABRT -- Abnormal process abort
+*
+* backtrace:
+*  0 0x000014595957781d [libai.so           ] AiADPDialogStrings                                                                                                     
+*  1 0x00001459c494472f [libpthread.so.0    ] __funlockfile                                                                                                          
+>> 2 0x00001459c47a87ba [libc.so.6          ] gsignal                                                                                                                
+*  3 0x00001459c47a87ba [libc.so.6          ] gsignal                                                                                                                
+*  4 0x00001459c4baf982 [libstdc++.so.6     ]                                                                                                                        
+*  5 0x00001459c4bb58c5 [libstdc++.so.6     ]                                                                                                                        
+*  6 0x00001459c4bb5900 [libstdc++.so.6     ] std::rethrow_exception(std::__exception_ptr::exception_ptr)                                                            
+*  7 0x00001459c4bb5b33 [libstdc++.so.6     ]                                                                                                                        
+*  8 0x00001459c4bb1a54 [libstdc++.so.6     ] std::terminate()                                                                                                       
+*  9 0x00001459cb12f718 [libDependCommand.so] std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*) 
+* 10 0x000014595c10338e [libai.so           ]                                                                                                                        
+* 11 0x000014595c102ae9 [libai.so           ] AiADPDialogStrings                                                                                                     
+* 12 0x000014595c10180a [libai.so           ]                                                                                                                        
+* 13 0x000014595c1010b8 [libai.so           ] AiADPDialogStrings                                                                                                     
+* 14 0x000014595c0ffcb7 [libai.so           ]                                                                                                                        
+* 15 0x000014595c0fffd6 [libai.so           ] AiADPDialogStrings                                                                                                     
+* 16 0x000014595c100550 [libai.so           ]                                                                                                                        
+* 17 0x000014595c343eb1 [libai.so           ] AiADPDialogStrings                                                                                                     
+* 18 0x000014595c344ef9 [libai.so           ]                                                                                                                        
+* 19 0x000014595c0aa315 [libai.so           ] AiADPDialogStrings                                                                                                     
+* 20 0x000014595c0a7e1a [libai.so           ]                                                                                                                        
+* 21 0x000014595c0b7e74 [libai.so           ] AiADPDialogStrings                                                                                                     
+* 22 0x000014595925babd [libai.so           ]                                                                                                                        
+* 23 0x000014595958077a [libai.so           ] AiADPDialogStrings                                                                                                     
+* 24 0x00001459c4939fa2 [libpthread.so.0    ]                                                                                                                        [pthread_create.c:486]
+* 25 0x00001459c486a4ce [libc.so.6          ] clone                                                                                                                  
+*
+* loaded modules:
+*    0x0000145958634000  libai.so
+*    0x00001459c4932000  libpthread.so.0
+*    0x00001459c4771000  libc.so.6
+*    0x00001459c4b23000  libstdc++.so.6
+*    0x00001459cb100000  libDependCommand.so
+*
+* memory: VM 8768 MB, RSS 746 MB, 1 page faults
+****
+Done rendering.

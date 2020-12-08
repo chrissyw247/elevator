@@ -1,0 +1,8 @@
+{
+    "end": "650", 
+    "extra": "", 
+    "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene2_Shot2.mb", 
+    "start": "0", 
+    "camera": "camera_stew_entering_elevator", 
+    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene2_shot2_3"
+}

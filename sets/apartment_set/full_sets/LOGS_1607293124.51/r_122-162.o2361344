@@ -1,0 +1,3 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene5_shot1 -s 122 -e 162 -cam ONE_inside_elevator /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/FullSet_Scene5_Dec6_Geoffrey3.mb
+Done rendering.

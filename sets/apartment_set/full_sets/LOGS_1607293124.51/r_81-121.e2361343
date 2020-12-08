@@ -1,0 +1,7 @@
+given is experimental at /var/spool/gridengine/execd/mblade1213/job_scripts/2361343 line 18.
+
+Starting "/usr/autodesk/maya2020/bin/maya"
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/2361343.1.long.q/runtime-cwang85'
+Error: line 1: File not found: "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/FullSet_Scene5_Dec6_Geoffrey3.mb"
+Error: file: /tmp/2361343.1.long.q/ASTMP2Kr1hV.mel line 31: Cannot load scene "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/FullSet_Scene5_Dec6_Geoffrey3.mb". Please check the scene name.
+// Maya exited with status 209

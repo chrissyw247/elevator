@@ -1,0 +1,8 @@
+{
+    "end": "1545", 
+    "extra": "", 
+    "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene6_Shot2_2.mb", 
+    "start": "1535", 
+    "camera": "shot2", 
+    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene6_shot2_try2"
+}

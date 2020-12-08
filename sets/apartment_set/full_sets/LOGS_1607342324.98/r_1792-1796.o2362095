@@ -1,0 +1,25 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene7_shot7 -s 1792 -e 1796 -cam shot7 /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene7_Shot7.mb
+00:00:00   437MB         | log started Mon Dec  7 06:58:50 2020
+00:00:00   437MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   437MB         | running on smblade16a1, pid=43713
+00:00:00   437MB         |  2 x Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz (24 cores, 48 logical) with 257843MB
+00:00:00   437MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-12-amd64
+00:00:00   437MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   437MB         |  
+00:00:00   437MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   438MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   438MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   438MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   442MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   443MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   444MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   444MB         | loaded 6 plugins from 4 lib(s) in 0:00.00
+libai.so already loaded
+00:00:05   812MB WARNING |  /group/scene7_anim_cameras/shot7/shot7Shape: ignoring scaling component in camera matrix
+00:57:27  1182MB ERROR   |  [texturesys] file7: Failed OpenEXR read: Error reading pixel data from image file "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/woo2.tx". Unexpected end of file.
+File "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/woo2.tx" was modified after being opened by OIIO
+00:57:27  1182MB WARNING |  render terminating early:  received abort signal
+[mtoa] Failed batch render
+
+Done rendering.

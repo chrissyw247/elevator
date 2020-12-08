@@ -1,0 +1,8 @@
+{
+    "end": "1890", 
+    "extra": "", 
+    "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene7_Shot9.mb", 
+    "start": "1837", 
+    "camera": "shot9", 
+    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene7_shot9_3"
+}

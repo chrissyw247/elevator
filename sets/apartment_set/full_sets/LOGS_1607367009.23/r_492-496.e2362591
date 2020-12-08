@@ -1,0 +1,110 @@
+given is experimental at /var/spool/gridengine/execd/mblade1308/job_scripts/2362591 line 18.
+
+Starting "/usr/autodesk/maya2020/bin/maya"
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/2362591.1.long.q/runtime-cwang85'
+Warning: file: /home/cwang85/maya/2020/prefs/filePathEditorRegistryPrefs.mel line 4: filePathEditor: Attribute 'aiImage.filename' is invalid or is not designated 'usedAsFilename'.
+Warning: file: /home/cwang85/maya/2020/prefs/filePathEditorRegistryPrefs.mel line 5: filePathEditor: Attribute 'aiPhotometricLight.aiFilename' is invalid or is not designated 'usedAsFilename'.
+Warning: file: /home/cwang85/maya/2020/prefs/filePathEditorRegistryPrefs.mel line 7: filePathEditor: Attribute 'aiVolume.filename' is invalid or is not designated 'usedAsFilename'.
+Warning: line 1: filePathEditor: Attribute 'aiVolume.filename' and label 'VDB' have been saved already.
+Warning: line 1: filePathEditor: Attribute 'aiImage.filename' and label 'Image' have been saved already.
+Warning: line 1: filePathEditor: Attribute 'aiPhotometricLight.aiFilename' and label 'IES' have been saved already.
+Successfully imported python module 'arnold'
+Successfully imported python module 'mtoa'
+root : ERROR : code for hash md5 was not found.
+Traceback (most recent call last):
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 147, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 97, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type md5
+root : ERROR : code for hash sha1 was not found.
+Traceback (most recent call last):
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 147, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 97, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type sha1
+root : ERROR : code for hash sha224 was not found.
+Traceback (most recent call last):
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 147, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 97, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type sha224
+root : ERROR : code for hash sha256 was not found.
+Traceback (most recent call last):
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 147, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 97, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type sha256
+root : ERROR : code for hash sha384 was not found.
+Traceback (most recent call last):
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 147, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 97, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type sha384
+root : ERROR : code for hash sha512 was not found.
+Traceback (most recent call last):
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 147, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 97, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type sha512
+Successfully registered renderer 'arnold'
+Error: line 1: RuntimeError: file <maya console> line 1: Plug-in, "vrayformaya", was not found on MAYA_PLUG_IN_PATH.
+Warning: line 1: Unrecognized node type for node 'vraySettings'; preserving node information during this session.
+Warning: line 1: Errors have occurred while reading this scene that may result in data loss.
+File read in  13 seconds.
+Result: /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene6_Shot2_2.mb
+Warning: file: /usr/autodesk/maya2020/scripts/others/makeCameraRenderable.mel line 45: Found camera shot2Shape.
+Warning: OpenSubdiv gets different edge topology to Maya poly.
+Warning: Fail to create OpenSubdiv TopologyRefiner.
+Warning: OpenSubdiv gets different edge topology to Maya poly.
+Warning: Fail to create OpenSubdiv TopologyRefiner.
+Stack trace:
+  gsignal
+  abort
+  /usr/autodesk/arnold/maya2020/plug-ins/../bin/libai.so(+0xbdc330) [0x14794120c330]
+  /usr/autodesk/arnold/maya2020/plug-ins/../bin/libai.so(+0xbddf55) [0x14794120df55]
+  AiMsgFatal
+  /usr/autodesk/arnold/maya2020/plug-ins/../bin/libai.so(+0xf4f4bb) [0x14794157f4bb]
+  AiMakeTx
+  CArnoldSession::ExportTxFiles()
+  CArnoldSession::Export(Autodesk::Maya::OpenMaya20200000::MSelectionList*)
+  CMayaScene::Export(Autodesk::Maya::OpenMaya20200000::MSelectionList*)
+  /usr/autodesk/arnold/maya2020/plug-ins/mtoa.so(+0xa30b8) [0x14797aebb0b8]
+  THcommandObject::doIt(TargList&)
+  TmetaCommand::doCommand(TargList&)
+  TpythonInterpreter::dispatchMayaCommand(TmetaCommand&, _object*, _object*)
+  TpythonInterpreter::genericDispatchFunction(_object*, _object*, _object*)
+  PyObject_Call
+  PyEval_CallObjectWithKeywords
+  /usr/autodesk/maya2020/lib/libpython2.7.so.1.0(+0xf2f41) [0x1479b9982f41]
+  PyEval_EvalFrameEx
+  PyEval_EvalCodeEx
+  /usr/autodesk/maya2020/lib/libpython2.7.so.1.0(+0x793f8) [0x1479b99093f8]
+  PyObject_Call
+  PyEval_EvalFrameEx
+  PyEval_EvalCodeEx
+  PyEval_EvalFrameEx
+  PyEval_EvalCodeEx
+  PyEval_EvalCode
+  TpythonInterpreter::executeCommand(Tstring const&, bool, bool, TinterpreterResult*)
+  /usr/autodesk/maya2020/lib/libCommandEngine.so(+0xda988) [0x1479bbb22988]
+  /usr/autodesk/maya2020/lib/libCommandEngine.so(+0x5a271) [0x1479bbaa2271]
+  /usr/autodesk/maya2020/lib/libCommandEngine.so(+0x89661) [0x1479bbad1661]
+  /usr/autodesk/maya2020/lib/libCommandEngine.so(+0xb0245) [0x1479bbaf8245]
+  /usr/autodesk/maya2020/lib/libCommandEngine.so(+0x89661) [0x1479bbad1661]
+  /usr/autodesk/maya2020/lib/libCommandEngine.so(+0x89831) [0x1479bbad1831]
+  SophiaExecutable::evaluate(void*)
+  TcommandEngine::executeCommand(SophiaExecutable*)
+  /usr/autodesk/maya2020/lib/libExtensionLayer.so(+0x23131a) [0x1479bc0c931a]
+  /usr/autodesk/maya2020/lib/libCommandEngine.so(+0x5a271) [0x1479bbaa2271]
+  /usr/autodesk/maya2020/lib/libCommandEngine.so(+0x89661) [0x1479bbad1661]
+  /usr/autodesk/maya2020/lib/libCommandEngine.so(+0xaed6d) [0x1479bbaf6d6d]
+1Fatal Error. Attempting to save in /tmp/2362591.1.long.q/cwang85.20201207.1516.ma
+Writing crash report in /tmp/2362591.1.long.q/cwang85.20201207.1516.crash
+/usr/autodesk/maya2020/bin/maya: line 194: 11320 Segmentation fault      /usr/autodesk/maya2020/bin/maya.bin '-batch' '-file' '/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene6_Shot2_2.mb' '-script' '/tmp/2362591.1.long.q/ASTMPimwW2S.mel'
+// Maya exited with status 139

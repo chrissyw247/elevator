@@ -1,0 +1,116 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene5_shot1.5_try2_actual -s 236 -e 238 -cam shot3 /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene6_Shot3_2.mb
+00:00:00   440MB         | log started Mon Dec  7 15:16:02 2020
+00:00:00   440MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   440MB         | running on mblade1308, pid=11190
+00:00:00   440MB         |  4 x AMD Opteron(tm) Processor 6378 (32 cores, 64 logical) with 257933MB
+00:00:00   440MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-12-amd64
+00:00:00   440MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   440MB         |  
+00:00:00   440MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   445MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   445MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   446MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   446MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   446MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   446MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   446MB         | loaded 6 plugins from 4 lib(s) in 0:00.01
+libai.so already loaded
+00:00:08   685MB WARNING | unable to create thread. Resource temporarily unavailable
+00:00:08   685MB WARNING | unable to create thread. Resource temporarily unavailable
+00:00:08   685MB FATAL   | unable to create work scheduler thread
+00:00:08   685MB ERROR   | signal caught: SIGABRT -- Abnormal process abort
+
+****
+* Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+* CRASHED in gsignal at 00:00:00
+* signal caught: SIGABRT -- Abnormal process abort
+*
+* backtrace:
+*  0 0x000014b00d57381d [libai.so            ]                                                                                     
+*  1 0x000014b0b4ba272f [libpthread.so.0     ]                                                                                     
+>> 2 0x000014b0b49ff7ba [libc.so.6           ] gsignal                                                                             
+*  3 0x000014b0b49ff7ba [libc.so.6           ] gsignal                                                                             
+*  4 0x000014b00d20c32f [libai.so            ]                                                                                     
+*  5 0x000014b00d20df54 [libai.so            ]                                                                                     
+*  6 0x000014b00d26833d [libai.so            ] AiMsgFatal                                                                          
+*  7 0x000014b00d57f4ba [libai.so            ]                                                                                     
+*  8 0x000014b00d258c4a [libai.so            ] AiMakeTx                                                                            
+*  9 0x000014b0608d0314 [libmtoa_api.so      ] CArnoldSession::ExportTxFiles()                                                     
+* 10 0x000014b0608d99ca [libmtoa_api.so      ] CArnoldSession::Export(Autodesk::Maya::OpenMaya20200000::MSelectionList*)           
+* 11 0x000014b060901f1c [libmtoa_api.so      ] CMayaScene::Export(Autodesk::Maya::OpenMaya20200000::MSelectionList*)               
+* 12 0x000014b0625bb0b7 [mtoa.so             ]                                                                                     
+* 13 0x000014b0c316bdc6 [libOpenMaya.so      ] THcommandObject::doIt(TargList&)                                                    
+* 14 0x000014b0ba070749 [libCommandEngine.so ] TmetaCommand::doCommand(TargList&)                                                  
+* 15 0x000014b0ba0d3658 [libCommandEngine.so ] TpythonInterpreter::dispatchMayaCommand(TmetaCommand&, _object*, _object*)          
+* 16 0x000014b0ba0d3c69 [libCommandEngine.so ] TpythonInterpreter::genericDispatchFunction(_object*, _object*, _object*)           
+* 17 0x000014b0b7ea9c72 [libpython2.7.so.1.0 ] PyObject_Call                                                                       [abstract.c   :2546]
+* 18 0x000014b0b7f53592 [libpython2.7.so.1.0 ] PyEval_CallObjectWithKeywords                                                       [ceval.c      :4219]
+* 19 0x000014b0b7f52f40 [libpython2.7.so.1.0 ]                                                                                     [bltinmodule.c: 201]
+* 20 0x000014b0b7f5cd74 [libpython2.7.so.1.0 ] PyEval_EvalFrameEx                                                                  [ceval.c      :4350]
+* 21 0x000014b0b7f5d98d [libpython2.7.so.1.0 ] PyEval_EvalCodeEx                                                                   [ceval.c      :3582]
+* 22 0x000014b0b7ed93f7 [libpython2.7.so.1.0 ]                                                                                     [funcobject.c : 526]
+* 23 0x000014b0b7ea9c72 [libpython2.7.so.1.0 ] PyObject_Call                                                                       [abstract.c   :2546]
+* 24 0x000014b0b7f5a6f6 [libpython2.7.so.1.0 ] PyEval_EvalFrameEx                                                                  [ceval.c      :4663]
+* 25 0x000014b0b7f5d98d [libpython2.7.so.1.0 ] PyEval_EvalCodeEx                                                                   [ceval.c      :3582]
+* 26 0x000014b0b7f5c9b4 [libpython2.7.so.1.0 ] PyEval_EvalFrameEx                                                                  [ceval.c      :4446]
+* 27 0x000014b0b7f5d98d [libpython2.7.so.1.0 ] PyEval_EvalCodeEx                                                                   [ceval.c      :3582]
+* 28 0x000014b0b7f5daa1 [libpython2.7.so.1.0 ] PyEval_EvalCode                                                                     [ceval.c      : 669]
+* 29 0x000014b0ba0d28c6 [libCommandEngine.so ] TpythonInterpreter::executeCommand(Tstring const&, bool, bool, TinterpreterResult*) 
+* 30 0x000014b0ba0f2987 [libCommandEngine.so ]                                                                                     
+* 31 0x000014b0ba072270 [libCommandEngine.so ]                                                                                     
+* 32 0x000014b0ba0a1660 [libCommandEngine.so ]                                                                                     
+* 33 0x000014b0ba0c8244 [libCommandEngine.so ]                                                                                     
+* 34 0x000014b0ba0a1660 [libCommandEngine.so ]                                                                                     
+* 35 0x000014b0ba0a1830 [libCommandEngine.so ]                                                                                     
+* 36 0x000014b0ba0c4afc [libCommandEngine.so ] SophiaExecutable::evaluate(void*)                                                   
+* 37 0x000014b0ba07846c [libCommandEngine.so ] TcommandEngine::executeCommand(SophiaExecutable*)                                   
+* 38 0x000014b0ba699319 [libExtensionLayer.so]                                                                                     
+* 39 0x000014b0ba072270 [libCommandEngine.so ]                                                                                     
+* 40 0x000014b0ba0a1660 [libCommandEngine.so ]                                                                                     
+* 41 0x000014b0ba0c6d6c [libCommandEngine.so ]                                                                                     
+* 42 0x000014b0ba0c6257 [libCommandEngine.so ]                                                                                     
+* 43 0x000014b0ba0a1660 [libCommandEngine.so ]                                                                                     
+* 44 0x000014b0ba0c6436 [libCommandEngine.so ]                                                                                     
+* 45 0x000014b0ba0a1660 [libCommandEngine.so ]                                                                                     
+* 46 0x000014b0ba0c62f0 [libCommandEngine.so ]                                                                                     
+* 47 0x000014b0ba0a1660 [libCommandEngine.so ]                                                                                     
+* 48 0x000014b0ba0c62f0 [libCommandEngine.so ]                                                                                     
+* 49 0x000014b0ba0a1660 [libCommandEngine.so ]                                                                                     
+* 50 0x000014b0ba0c673b [libCommandEngine.so ]                                                                                     
+* 51 0x000014b0ba0a1660 [libCommandEngine.so ]                                                                                     
+* 52 0x000014b0ba0c8244 [libCommandEngine.so ]                                                                                     
+* 53 0x000014b0ba0a1660 [libCommandEngine.so ]                                                                                     
+* 54 0x000014b0ba0c8244 [libCommandEngine.so ]                                                                                     
+* 55 0x000014b0ba0a1660 [libCommandEngine.so ]                                                                                     
+* 56 0x000014b0ba0c6d6c [libCommandEngine.so ]                                                                                     
+* 57 0x000014b0ba0c6377 [libCommandEngine.so ]                                                                                     
+* 58 0x000014b0ba0a1660 [libCommandEngine.so ]                                                                                     
+* 59 0x000014b0ba0c6436 [libCommandEngine.so ]                                                                                     
+* 60 0x000014b0ba0a1660 [libCommandEngine.so ]                                                                                     
+* 61 0x000014b0ba0a1830 [libCommandEngine.so ]                                                                                     
+* 62 0x000014b0ba0c4afc [libCommandEngine.so ] SophiaExecutable::evaluate(void*)                                                   
+* 63 0x000014b0ba07bc39 [libCommandEngine.so ] TcommandEngine::sourceFile(Tstring const&)                                          
+* 64 0x0000000000414a92 [maya.bin            ]                                                                                     
+* 65 0x000000000040de31 [maya.bin            ]                                                                                     
+* 66 0x000014b0ba66146c [libExtensionLayer.so] Tapplication::start()                                                               
+* 67 0x000000000040ee98 [maya.bin            ]                                                                                     
+* 68 0x000000000040d435 [maya.bin            ]                                                                                     
+* 69 0x000014b0b49ec09a [libc.so.6           ] __libc_start_main                                                                   
+* 70 0x000000000040d879 [maya.bin            ]                                                                                     
+*
+* loaded modules:
+*    0x000014b00c630000  libai.so
+*    0x000014b0b4b90000  libpthread.so.0
+*    0x000014b0b49c8000  libc.so.6
+*    0x000014b060850000  libmtoa_api.so
+*    0x000014b062518000  mtoa.so
+*    0x000014b0c2f98000  libOpenMaya.so
+*    0x000014b0ba018000  libCommandEngine.so
+*    0x000014b0b7e60000  libpython2.7.so.1.0
+*    0x000014b0ba468000  libExtensionLayer.so
+*    0x0000000000400000  maya.bin
+*
+* memory: VM 6180 MB, RSS 686 MB, 1 page faults
+****
+Done rendering.

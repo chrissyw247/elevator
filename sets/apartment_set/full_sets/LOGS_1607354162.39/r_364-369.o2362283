@@ -1,0 +1,45 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene5_part3_shot2 -s 364 -e 369 -cam TWO_outside_elevator /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/FullSet_Scene5_Part3_Geoffrey4.mb
+00:00:00   432MB         | log started Mon Dec  7 10:17:42 2020
+00:00:00   432MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   432MB         | running on mblade1308, pid=56087
+00:00:00   432MB         |  4 x AMD Opteron(tm) Processor 6378 (32 cores, 64 logical) with 257933MB
+00:00:00   432MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-12-amd64
+00:00:00   432MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   432MB         |  
+00:00:00   432MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   437MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   438MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   438MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   439MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   439MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   439MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   439MB         | loaded 6 plugins from 4 lib(s) in 0:00.16
+libai.so already loaded
+00:00:40   792MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:40   792MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:43   808MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:43   808MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/12003371123.tx is referenced multiple times with different color spaces
+00:00:43   808MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:01:15  1198MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:01:15  1198MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:01:17  1191MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:01:18  1191MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/12003371123.tx is referenced multiple times with different color spaces
+00:01:18  1191MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:01:06  1255MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:01:06  1255MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:01:09  1247MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:01:09  1247MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/12003371123.tx is referenced multiple times with different color spaces
+00:01:09  1247MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:11  1256MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:11  1256MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:39  1391MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:39  1391MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/12003371123.tx is referenced multiple times with different color spaces
+00:00:39  1391MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:45  1418MB ERROR   |  [texturesys] full_set_for_renders:apartment_with_updated_elevator:file8: Failed OpenEXR read: Error reading pixel data from image file "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/redwood_text.tx". Unexpected end of file.
+00:00:45  1418MB ERROR   |  [texturesys] full_set_for_renders:apartment_with_updated_elevator:file7: unspecified OIIO error (filename =  "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/redwood_text.tx")
+00:00:45  1418MB ERROR   |  [texturesys] full_set_for_renders:apartment_with_updated_elevator:file8: Failed OpenEXR read: Error reading pixel data from image file "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/redwood_text.tx". Unexpected end of file.
+00:00:45  1418MB WARNING |  render terminating early:  received abort signal
+[mtoa] Failed batch render
+
+Done rendering.

@@ -1,0 +1,24 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene2_shot6_png -s 640 -e 657 -cam behind_butternut /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene2_Shot6_png.mb
+00:00:00   434MB         | log started Mon Dec  7 00:26:29 2020
+00:00:00   434MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   434MB         | running on mblade1308, pid=65310
+00:00:00   434MB         |  4 x AMD Opteron(tm) Processor 6378 (32 cores, 64 logical) with 257933MB
+00:00:00   434MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-12-amd64
+00:00:00   434MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   434MB         |  
+00:00:00   434MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   438MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   440MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   440MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   440MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   441MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   441MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   441MB         | loaded 6 plugins from 4 lib(s) in 0:00.19
+libai.so already loaded
+00:00:51   804MB WARNING |  /cameras/behind_butternut/behind_butternutShape: ignoring scaling component in camera matrix
+01:09:23  1114MB ERROR   |   signal caught: SIGSEGV -- Invalid memory reference
+
+****
+* Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+Done rendering.

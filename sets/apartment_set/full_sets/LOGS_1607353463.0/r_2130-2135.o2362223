@@ -1,0 +1,32 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene7_shot13 -s 2130 -e 2135 -cam shot13 /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene7_Shot13.mb
+00:00:00   437MB         | log started Mon Dec  7 10:05:44 2020
+00:00:00   437MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   437MB         | running on smblade16a6, pid=40539
+00:00:00   437MB         |  2 x Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz (24 cores, 48 logical) with 257821MB
+00:00:00   437MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-12-amd64
+00:00:00   437MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   437MB         |  
+00:00:00   437MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   438MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   438MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   438MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   438MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   444MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   445MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   445MB         | loaded 6 plugins from 4 lib(s) in 0:00.15
+libai.so already loaded
+00:01:42   785MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:01:42   785MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:01:45   798MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:01:50   820MB WARNING |  /group/scene7_anim_cameras/shot13/shot13Shape: ignoring scaling component in camera matrix
+00:02:19  1312MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:02:19  1312MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:02:23  1311MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:21:49  1384MB ERROR   |  [texturesys] apartment_with_updated_elevator7:file8: Failed OpenEXR read: Error reading pixel data from image file "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/redwood_text.tx". Unexpected end of file.
+File "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/redwood_text.tx" was modified after being opened by OIIO
+00:21:49  1384MB ERROR   |  [texturesys] apartment_with_updated_elevator7:file7: unspecified OIIO error (filename =  "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/redwood_text.tx")
+00:21:51  1384MB WARNING |  render terminating early:  received abort signal
+[mtoa] Failed batch render
+
+Done rendering.

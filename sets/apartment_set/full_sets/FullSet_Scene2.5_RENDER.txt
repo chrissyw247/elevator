@@ -4,5 +4,5 @@
     "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/FullSet_Scene2.5.mb", 
     "start": "0", 
     "camera": "shot1", 
-    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene2_transition"
+    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene2.5_shot1"
 }

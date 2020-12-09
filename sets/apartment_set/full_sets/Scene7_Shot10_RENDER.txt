@@ -1,8 +1,8 @@
 {
-    "end": "1960", 
+    "end": "1944", 
     "extra": "", 
     "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene7_Shot10.mb", 
-    "start": "1955", 
+    "start": "1938", 
     "camera": "shot10", 
     "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene7_shot10"
 }

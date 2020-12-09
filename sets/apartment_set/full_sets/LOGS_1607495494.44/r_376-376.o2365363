@@ -16,3 +16,4 @@ Begin render:
 00:00:00   439MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
 00:00:00   439MB         | loaded 6 plugins from 4 lib(s) in 0:00.13
 libai.so already loaded
+00:00:49   801MB WARNING |  /cameras/shot2/shot2Shape: ignoring scaling component in camera matrix

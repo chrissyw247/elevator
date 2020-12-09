@@ -1,0 +1,8 @@
+{
+    "end": "429", 
+    "extra": "", 
+    "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene1_Dec5_Shaded.mb", 
+    "start": "425", 
+    "camera": "shot2", 
+    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene1_dec5_shot2_render"
+}

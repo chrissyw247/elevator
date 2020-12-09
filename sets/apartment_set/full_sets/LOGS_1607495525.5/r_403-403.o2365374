@@ -1,0 +1,2 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene1_dec5_shot2_render -s 403 -e 403 -cam shot2 /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene1_Dec5_Shaded.mb

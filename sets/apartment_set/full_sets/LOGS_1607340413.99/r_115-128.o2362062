@@ -21,3 +21,8 @@ libai.so already loaded
 00:01:00   825MB WARNING |  /cameras/shot12/shot12Shape: ignoring scaling component in camera matrix
 00:01:00   825MB WARNING |  /cameras/camera_door/camera_doorShape: ignoring scaling component in camera matrix
 00:01:00   825MB WARNING |  /cameras/camera_stew_entering_elevator/camera_stew_entering_elevatorShape: ignoring scaling component in camera matrix
+01:27:39  1255MB ERROR   |   signal caught: SIGSEGV -- Invalid memory reference
+
+****
+* Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+Done rendering.

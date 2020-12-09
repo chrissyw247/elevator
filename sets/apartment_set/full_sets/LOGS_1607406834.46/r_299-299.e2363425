@@ -1,0 +1,64 @@
+given is experimental at /var/spool/gridengine/execd/mblade1213/job_scripts/2363425 line 18.
+
+Starting "/usr/autodesk/maya2020/bin/maya"
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/2363425.1.long.q/runtime-cwang85'
+Warning: file: /home/cwang85/maya/2020/prefs/filePathEditorRegistryPrefs.mel line 4: filePathEditor: Attribute 'aiImage.filename' is invalid or is not designated 'usedAsFilename'.
+Warning: file: /home/cwang85/maya/2020/prefs/filePathEditorRegistryPrefs.mel line 5: filePathEditor: Attribute 'aiPhotometricLight.aiFilename' is invalid or is not designated 'usedAsFilename'.
+Warning: file: /home/cwang85/maya/2020/prefs/filePathEditorRegistryPrefs.mel line 7: filePathEditor: Attribute 'aiVolume.filename' is invalid or is not designated 'usedAsFilename'.
+Warning: line 1: filePathEditor: Attribute 'aiVolume.filename' and label 'VDB' have been saved already.
+Warning: line 1: filePathEditor: Attribute 'aiImage.filename' and label 'Image' have been saved already.
+Warning: line 1: filePathEditor: Attribute 'aiPhotometricLight.aiFilename' and label 'IES' have been saved already.
+Successfully imported python module 'arnold'
+Successfully imported python module 'mtoa'
+root : ERROR : code for hash md5 was not found.
+Traceback (most recent call last):
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 147, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 97, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type md5
+root : ERROR : code for hash sha1 was not found.
+Traceback (most recent call last):
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 147, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 97, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type sha1
+root : ERROR : code for hash sha224 was not found.
+Traceback (most recent call last):
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 147, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 97, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type sha224
+root : ERROR : code for hash sha256 was not found.
+Traceback (most recent call last):
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 147, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 97, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type sha256
+root : ERROR : code for hash sha384 was not found.
+Traceback (most recent call last):
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 147, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 97, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type sha384
+root : ERROR : code for hash sha512 was not found.
+Traceback (most recent call last):
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 147, in <module>
+    globals()[__func_name] = __get_hash(__func_name)
+  File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 97, in __get_builtin_constructor
+    raise ValueError('unsupported hash type ' + name)
+ValueError: unsupported hash type sha512
+Successfully registered renderer 'arnold'
+Error: line 1: RuntimeError: file <maya console> line 1: Plug-in, "vrayformaya", was not found on MAYA_PLUG_IN_PATH.
+File read in  9 seconds.
+Result: /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene6_Shot3_2.mb
+Warning: file: /usr/autodesk/maya2020/scripts/others/makeCameraRenderable.mel line 45: Found camera shot3Shape.
+Warning: OpenSubdiv gets different edge topology to Maya poly.
+Warning: Fail to create OpenSubdiv TopologyRefiner.
+Warning: OpenSubdiv gets different edge topology to Maya poly.
+Warning: Fail to create OpenSubdiv TopologyRefiner.
+Scene /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene6_Shot3_2.mb completed.

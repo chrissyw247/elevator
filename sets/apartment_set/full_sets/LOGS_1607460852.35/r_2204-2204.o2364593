@@ -1,0 +1,22 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene7_shot15 -s 2204 -e 2204 -cam shot15 /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene7_Shot15.mb
+00:00:00   429MB         | log started Tue Dec  8 16:03:14 2020
+00:00:00   429MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   429MB         | running on smblade16a3, pid=3631
+00:00:00   429MB         |  2 x Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz (24 cores, 48 logical) with 257843MB
+00:00:00   429MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-13-amd64
+00:00:00   429MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   429MB         |  
+00:00:00   429MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   429MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   429MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   429MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   429MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   434MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   434MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   434MB         | loaded 6 plugins from 4 lib(s) in 0:00.15
+libai.so already loaded
+00:00:53   780MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:53   780MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:55   794MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:58   813MB WARNING |  /group/scene7_anim_cameras/shot15/shot15Shape: ignoring scaling component in camera matrix

@@ -1,0 +1,28 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd scene2_dec7_shot2 -s 49 -e 49 -cam camera_stew_entering_elevator /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene2_Dec7_Shot2.mb
+00:00:00   432MB         | log started Tue Dec  8 16:54:37 2020
+00:00:00   432MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   432MB         | running on mblade1210, pid=5576
+00:00:00   432MB         |  2 x AMD Opteron(tm) Processor 6282 SE (16 cores, 32 logical) with 64404MB
+00:00:00   432MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-13-amd64
+00:00:00   432MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   432MB         |  
+00:00:00   432MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   432MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   432MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   432MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   432MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   432MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   437MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   437MB         | loaded 6 plugins from 4 lib(s) in 0:00.11
+libai.so already loaded
+00:01:22   782MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:01:22   784MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:01:23   794MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:01:27   812MB WARNING |  /cameras/camera_stew_entering_elevator/camera_stew_entering_elevatorShape: ignoring scaling component in camera matrix
+02:22:46  1027MB ERROR   |  [texturesys] walls_file11: /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/brick_normal.tx: Error fetching directory count
+File "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/brick_normal.tx" was modified after being opened by OIIO
+02:22:47  1027MB WARNING |  render terminating early:  received abort signal
+[mtoa] Failed batch render
+
+Done rendering.

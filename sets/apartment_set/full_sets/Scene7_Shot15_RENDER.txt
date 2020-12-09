@@ -2,7 +2,7 @@
     "end": "2240", 
     "extra": "", 
     "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene7_Shot15.mb", 
-    "start": "2200", 
+    "start": "2240", 
     "camera": "shot15", 
-    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene7_shot15_fixed_textures"
+    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene7_shot15"
 }

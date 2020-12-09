@@ -4,5 +4,5 @@
     "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/FullSet_Scene5_Part2_Geoffrey7.mb", 
     "start": "440", 
     "camera": "TWO_elevator_farther_outside", 
-    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene5_shot6"
+    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene5_shot5"
 }

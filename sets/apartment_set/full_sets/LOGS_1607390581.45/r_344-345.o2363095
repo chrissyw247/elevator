@@ -17,3 +17,4 @@ Begin render:
 00:00:00   443MB         | loaded 6 plugins from 4 lib(s) in 0:00.25
 libai.so already loaded
 00:00:40   672MB WARNING |  /cameras/shot3/shot3Shape: ignoring scaling component in camera matrix
+Done rendering.

@@ -1,5 +1,5 @@
 {
-    "end": "1979", 
+    "end": "1966", 
     "extra": "", 
     "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene7_Shot11.mb", 
     "start": "1960", 

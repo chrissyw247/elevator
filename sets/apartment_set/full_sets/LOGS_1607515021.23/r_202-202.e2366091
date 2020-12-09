@@ -1,0 +1,4 @@
+given is experimental at /var/spool/gridengine/execd/mblade1212/job_scripts/2366091 line 18.
+
+Starting "/usr/autodesk/maya2020/bin/maya"
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/2366091.1.long.q/runtime-cwang85'

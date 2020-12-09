@@ -1,0 +1,8 @@
+{
+    "end": "369", 
+    "extra": "", 
+    "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene5_Shot3.mb", 
+    "start": "368", 
+    "camera": "FOUR_camea_elevator_opening_extra2", 
+    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene5_shot3"
+}

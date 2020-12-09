@@ -20,3 +20,6 @@ libai.so already loaded
 00:00:05   864MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
 00:00:06   876MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
 00:00:07   896MB WARNING |  /FullSet_Scene4_0001:cameras/shot12/shot12Shape: ignoring scaling component in camera matrix
+00:00:33  1188MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:33  1188MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:35  1188MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces

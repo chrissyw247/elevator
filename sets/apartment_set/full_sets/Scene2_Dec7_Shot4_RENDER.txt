@@ -1,8 +1,8 @@
 {
-    "end": "627", 
+    "end": "607", 
     "extra": "", 
     "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene2_Dec7_Shot4.mb", 
-    "start": "627", 
+    "start": "604", 
     "camera": "inside_elev", 
     "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene2_dec7_shot4"
 }

@@ -1,8 +1,8 @@
 {
-    "end": "1800", 
+    "end": "1796", 
     "extra": "", 
     "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene7_Shot7_new.mb", 
-    "start": "1767", 
+    "start": "1796", 
     "camera": "shot7", 
-    "output": "/course/cs125_projects/keeper/final_renders/shot0010/): /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene7_shot7_fixed_back_wall"
+    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene7_shot7_try2"
 }

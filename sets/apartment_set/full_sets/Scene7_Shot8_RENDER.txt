@@ -1,8 +1,8 @@
 {
-    "end": "1915", 
+    "end": "1902", 
     "extra": "", 
     "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene7_Shot8.mb", 
-    "start": "1860", 
+    "start": "1902", 
     "camera": "shot8", 
     "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene7_shot8"
 }

@@ -1,0 +1,23 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene7_shot13 -s 2121 -e 2121 -cam shot13 /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene7_Shot13.mb
+00:00:00   435MB         | log started Tue Dec  8 06:55:54 2020
+00:00:00   435MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   435MB         | running on smblade16a7, pid=29868
+00:00:00   435MB         |  2 x Intel(R) Xeon(R) CPU E5-2650 v4 @ 2.20GHz (24 cores, 48 logical) with 257843MB
+00:00:00   435MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-12-amd64
+00:00:00   435MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   435MB         |  
+00:00:00   435MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   435MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   435MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   440MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   441MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   441MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   441MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   441MB         | loaded 6 plugins from 4 lib(s) in 0:00.01
+libai.so already loaded
+00:00:11   780MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:11   780MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:14   796MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:15   818MB WARNING |  /group/scene7_anim_cameras/shot13/shot13Shape: ignoring scaling component in camera matrix
+Done rendering.

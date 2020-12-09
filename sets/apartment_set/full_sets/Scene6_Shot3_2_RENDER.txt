@@ -1,8 +1,8 @@
 {
-    "end": "550", 
+    "end": "304", 
     "extra": "", 
     "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene6_Shot3_2.mb", 
-    "start": "500", 
+    "start": "303", 
     "camera": "shot3", 
-    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene6_shot5_fixed_door_actual"
+    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene6_shot3_fixed_door_actual"
 }

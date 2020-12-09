@@ -67,3 +67,9 @@ Warning: OpenSubdiv gets different edge topology to Maya poly.
 Warning: Fail to create OpenSubdiv TopologyRefiner.
 Warning: OpenSubdiv gets different edge topology to Maya poly.
 Warning: Fail to create OpenSubdiv TopologyRefiner.
+Warning: OpenSubdiv gets different edge topology to Maya poly.
+Warning: Fail to create OpenSubdiv TopologyRefiner.
+Warning: OpenSubdiv gets different edge topology to Maya poly.
+Warning: Fail to create OpenSubdiv TopologyRefiner.
+/usr/autodesk/maya2020/bin/maya: line 194: 24356 Segmentation fault      /usr/autodesk/maya2020/bin/maya.bin '-batch' '-file' '/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/FullSet_Scene4.mb' '-script' '/tmp/2362064.1.long.q/ASTMPbFlu4K.mel'
+// Maya exited with status 139

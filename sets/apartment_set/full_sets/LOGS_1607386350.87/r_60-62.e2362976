@@ -63,3 +63,6 @@ Warning: OpenSubdiv gets different edge topology to Maya poly.
 Warning: Fail to create OpenSubdiv TopologyRefiner.
 Warning: OpenSubdiv gets different edge topology to Maya poly.
 Warning: Fail to create OpenSubdiv TopologyRefiner.
+Error: line 1: RuntimeError: [mtoa] Failed batch render
+Warning: file: /usr/autodesk/maya2020/scripts/others/mayaBatchRenderProcedure.mel line 653: Renderer returned an error while rendering 'defaultRenderLayer', please verify the output image.
+Scene /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene3_Shot2.mb completed.

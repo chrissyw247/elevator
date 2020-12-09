@@ -1,0 +1,21 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene3_shot1 -s 14 -e 14 -cam shot1 /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene3_Shot1.mb
+00:00:00   435MB         | log started Tue Dec  8 14:41:48 2020
+00:00:00   435MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   435MB         | running on blade0916, pid=646
+00:00:00   435MB         |  2 x Intel(R) Xeon(R) CPU E5530 @ 2.40GHz (8 cores, 16 logical) with 24091MB
+00:00:00   435MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-12-amd64
+00:00:00   435MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   435MB         |  
+00:00:00   435MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   435MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   435MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   435MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   435MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   436MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   441MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   441MB         | loaded 6 plugins from 4 lib(s) in 0:00.05
+libai.so already loaded
+00:00:43   865MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:44   869MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:45   870MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces

@@ -2,7 +2,7 @@
     "end": "74", 
     "extra": "", 
     "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene3_Shot2.mb", 
-    "start": "60", 
+    "start": "74", 
     "camera": "shot2", 
     "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene3_shot2"
 }

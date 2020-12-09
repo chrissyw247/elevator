@@ -19,3 +19,8 @@ libai.so already loaded
 00:00:05   833MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
 00:00:05   833MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
 00:00:08   847MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+01:36:30  1143MB ERROR   |  [texturesys] walls_file11: Read error at row 1728, col 1728, tile 3096; got 18446744073709551615 bytes, expected 21208 (filename =  "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/brick_normal.tx")
+01:36:30  1143MB WARNING |  render terminating early:  received abort signal
+[mtoa] Failed batch render
+
+Done rendering.

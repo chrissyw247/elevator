@@ -1,8 +1,8 @@
 {
-    "end": "286", 
+    "end": "1", 
     "extra": "", 
     "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene1_Shot1.mb", 
-    "start": "240", 
+    "start": "1", 
     "camera": "shot1", 
-    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene1_shot1_trimmed"
+    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene1_shot1_zoomed_out"
 }

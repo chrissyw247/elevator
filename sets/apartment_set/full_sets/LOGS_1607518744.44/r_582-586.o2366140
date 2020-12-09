@@ -1,0 +1,41 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene6_dec7_shot3.3 -s 582 -e 586 -cam peering_out_of_elev /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene2_Dec7_Shot3.mb
+00:00:00   436MB         | log started Wed Dec  9 07:59:14 2020
+00:00:00   436MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   436MB         | running on mblade1215, pid=17450
+00:00:00   436MB         |  2 x AMD Opteron(tm) Processor 6282 SE (16 cores, 32 logical) with 64404MB
+00:00:00   436MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-13-amd64
+00:00:00   436MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   436MB         |  
+00:00:00   436MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   440MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   441MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   442MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   442MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   442MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   442MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   442MB         | loaded 6 plugins from 4 lib(s) in 0:00.01
+libai.so already loaded
+00:00:05   796MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:06   803MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:07   804MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:17   808MB WARNING | rendering with watermarks because of failed authorization:
+00:00:17   808MB         |  [rlm] could not checkout a license for "arnold 20200731", the license may be expired
+00:00:17   808MB         |  [rlm]  * Cannot connect to server (comm: -4)
+00:00:17   808MB         |  [rlm]  * Communications error with license server (-17)
+00:00:17   808MB         |  [clm.v1] generic license checkout error (22)
+00:00:17   808MB         |  [clm.v2] timeout before callback was called
+00:00:17   808MB         |  environment variables:
+00:00:17   808MB         |         ARNOLD_LICENSE_ORDER   = (not set)
+00:00:17   808MB         |         ARNOLD_LICENSE_MANAGER = (not set)
+00:00:17   808MB         |  [rlm]  solidangle_LICENSE     = (not set)
+00:00:17   808MB         |  [rlm]  RLM_LICENSE            = (not set)
+00:00:17   808MB         |  [clm]  ADSKFLEX_LICENSE_FILE  = (not set)
+00:00:17   808MB         |  [clm]  LM_LICENSE_FILE        = (not set)
+00:00:18   826MB WARNING |  /cameras/shot4/shot4Shape: ignoring scaling component in camera matrix
+00:00:39  1099MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:40  1099MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:41  1099MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:37  1063MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:37  1064MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:38  1064MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces

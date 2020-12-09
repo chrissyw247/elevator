@@ -59,3 +59,6 @@ Warning: line 1: Errors have occurred while reading this scene that may result i
 File read in  131.9 seconds.
 Result: /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene2_Dec7_Shot2.mb
 Warning: file: /usr/autodesk/maya2020/scripts/others/makeCameraRenderable.mel line 45: Found camera camera_stew_entering_elevatorShape.
+/usr/autodesk/maya2020/bin/maya: line 194: 25548 Segmentation fault      /usr/autodesk/maya2020/bin/maya.bin '-batch' '-file' '/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene2_Dec7_Shot2.mb' '-script' '/tmp/2365585.1.long.q/ASTMPn50KZQ.mel'
+// Maya exited with status 139
+Unable to flush stdout: Stale file handle

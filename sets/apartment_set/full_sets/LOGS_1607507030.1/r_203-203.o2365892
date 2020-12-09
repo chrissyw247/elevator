@@ -1,0 +1,23 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene2_dec7_shot2.2 -s 203 -e 203 -cam camera_stew_entering_elevator /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene2_Dec7_Shot2.mb
+00:00:00   443MB         | log started Wed Dec  9 04:44:02 2020
+00:00:00   443MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   443MB         | running on blade0916, pid=18267
+00:00:00   443MB         |  2 x Intel(R) Xeon(R) CPU E5530 @ 2.40GHz (8 cores, 16 logical) with 24091MB
+00:00:00   443MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-12-amd64
+00:00:00   443MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   443MB         |  
+00:00:00   443MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   443MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   443MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   443MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   443MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   443MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   448MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   448MB         | loaded 6 plugins from 4 lib(s) in 0:00.01
+libai.so already loaded
+00:00:08   780MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:08   782MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:09   782MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:10   799MB WARNING |  /cameras/camera_stew_entering_elevator/camera_stew_entering_elevatorShape: ignoring scaling component in camera matrix
+Done rendering.

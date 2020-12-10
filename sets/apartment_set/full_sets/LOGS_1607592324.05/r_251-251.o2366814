@@ -1,0 +1,25 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene5_shot2 -s 251 -e 251 -cam THREE_stu_hand_opening_elevator /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/FullSet_Scene5_Part1_Geoffrey5.mb
+00:00:00   434MB         | log started Thu Dec 10 04:25:32 2020
+00:00:00   434MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   434MB         | running on blade0911, pid=24162
+00:00:00   434MB         |  2 x Intel(R) Xeon(R) CPU E5530 @ 2.40GHz (8 cores, 16 logical) with 20059MB
+00:00:00   434MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-9-amd64
+00:00:00   434MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   434MB         |  
+00:00:00   434MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   434MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   434MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   434MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   434MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   434MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   439MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   439MB         | loaded 6 plugins from 4 lib(s) in 0:00.01
+libai.so already loaded
+00:00:03   713MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:03   714MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:04   717MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:04   717MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:04   717MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:04   717MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:04   717MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces

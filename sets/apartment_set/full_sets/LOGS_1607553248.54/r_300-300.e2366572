@@ -59,3 +59,4 @@ Warning: line 1: Errors have occurred while reading this scene that may result i
 File read in  11.3 seconds.
 Result: /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/FullSet_Scene5_Part1_Geoffrey6.mb
 Warning: file: /usr/autodesk/maya2020/scripts/others/makeCameraRenderable.mel line 45: Found camera THREE_stu_hand_opening_elevatorShape.
+Scene /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/FullSet_Scene5_Part1_Geoffrey6.mb completed.

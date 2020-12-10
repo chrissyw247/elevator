@@ -21,3 +21,4 @@ libai.so already loaded
 00:00:17   788MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
 00:00:18   810MB WARNING |  /cameras/shot4/shot4Shape: ignoring scaling component in camera matrix
 00:00:18   810MB WARNING |  /cameras/camera_walking_down_towards_elevator/camera_walking_down_towards_elevatorShape: ignoring scaling component in camera matrix
+Done rendering.

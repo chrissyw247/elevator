@@ -23,3 +23,13 @@ libai.so already loaded
 00:00:11  1057MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
 00:00:11  1057MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
 00:00:12  1057MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:21  1022MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:21  1022MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:22  1022MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:22  1046MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:22  1046MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:24  1046MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:00:22  1061MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:22  1061MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:00:23  1061MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+Done rendering.

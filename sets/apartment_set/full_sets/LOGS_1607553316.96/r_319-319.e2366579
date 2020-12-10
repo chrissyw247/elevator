@@ -52,3 +52,11 @@ Traceback (most recent call last):
   File "/usr/autodesk/maya2020/lib/python27.zip/hashlib.py", line 97, in __get_builtin_constructor
     raise ValueError('unsupported hash type ' + name)
 ValueError: unsupported hash type sha512
+Successfully registered renderer 'arnold'
+Error: line 1: RuntimeError: file <maya console> line 1: Plug-in, "vrayformaya", was not found on MAYA_PLUG_IN_PATH.
+Warning: line 1: Unrecognized node type for node 'vraySettings'; preserving node information during this session.
+Warning: line 1: Errors have occurred while reading this scene that may result in data loss.
+File read in  99.1 seconds.
+Result: /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/FullSet_Scene5_Part1_Geoffrey6.mb
+Warning: file: /usr/autodesk/maya2020/scripts/others/makeCameraRenderable.mel line 45: Found camera THREE_stu_hand_opening_elevatorShape.
+Scene /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/FullSet_Scene5_Part1_Geoffrey6.mb completed.

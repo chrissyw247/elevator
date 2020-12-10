@@ -59,3 +59,4 @@ Warning: line 1: Errors have occurred while reading this scene that may result i
 File read in  186.1 seconds.
 Result: /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene2_Dec7_Shot3.mb
 Warning: file: /usr/autodesk/maya2020/scripts/others/makeCameraRenderable.mel line 45: Found camera peering_out_of_elevShape.
+Scene /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene2_Dec7_Shot3.mb completed.

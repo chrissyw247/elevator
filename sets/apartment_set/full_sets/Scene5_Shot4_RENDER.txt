@@ -1,0 +1,8 @@
+{
+    "end": "270", 
+    "extra": "", 
+    "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene5_Shot4.mb", 
+    "start": "264", 
+    "camera": "ONE_B_higher_inside_elevator", 
+    "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene5_shot4_2"
+}

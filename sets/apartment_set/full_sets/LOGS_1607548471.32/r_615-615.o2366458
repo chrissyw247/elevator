@@ -24,3 +24,4 @@ libai.so already loaded
 00:00:41   797MB WARNING |  /cameras/camera_walking_down_towards_elevator/camera_walking_down_towards_elevatorShape: ignoring scaling component in camera matrix
 00:00:41   797MB WARNING |  /cameras/button_shot/button_shotShape: ignoring scaling component in camera matrix
 00:00:41   797MB WARNING |  /cameras/inside_elev/inside_elevShape: ignoring scaling component in camera matrix
+Done rendering.

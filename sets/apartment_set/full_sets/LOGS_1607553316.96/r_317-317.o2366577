@@ -16,3 +16,4 @@ Begin render:
 00:00:00   439MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
 00:00:00   440MB         | loaded 6 plugins from 4 lib(s) in 0:00.14
 libai.so already loaded
+Done rendering.

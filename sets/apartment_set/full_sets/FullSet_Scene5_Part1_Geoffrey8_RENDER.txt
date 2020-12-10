@@ -1,8 +1,8 @@
 {
-    "end": "157", 
+    "end": "101", 
     "extra": "", 
     "filename": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/FullSet_Scene5_Part1_Geoffrey8.mb", 
-    "start": "69", 
+    "start": "100", 
     "camera": "ONE_Inside_elevator", 
     "output": "/course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene5_shot1_4"
 }

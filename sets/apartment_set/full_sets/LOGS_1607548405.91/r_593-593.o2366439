@@ -1,0 +1,25 @@
+Begin render:
+/usr/autodesk/maya2020/bin/Render -r arnold -rd /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/scene2_dec7_shot3.3 -s 593 -e 593 -cam peering_out_of_elev /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/Scene2_Dec7_Shot3.mb
+00:00:00   433MB         | log started Wed Dec  9 16:13:39 2020
+00:00:00   433MB         | Arnold 6.0.4.0 [3fad32b9] linux clang-9.0.1 oiio-2.2.1 osl-1.11.6 vdb-4.0.0 clm-1.1.1.118 rlm-12.4.2 optix-6.6.0 2020/07/31 08:04:58
+00:00:00   433MB         | running on blade0911, pid=26024
+00:00:00   433MB         |  2 x Intel(R) Xeon(R) CPU E5530 @ 2.40GHz (8 cores, 16 logical) with 20059MB
+00:00:00   433MB         |  Debian GNU/Linux 10 (buster), Linux kernel 4.19.0-9-amd64
+00:00:00   433MB         |  soft limit for open files raised from 1024 to 524286
+00:00:00   433MB         |  
+00:00:00   433MB         | loading plugins from /usr/autodesk/arnold/maya2020/plug-ins/../bin/../plugins ...
+00:00:00   433MB         |  cryptomatte.so: cryptomatte uses Arnold 6.0.4.0
+00:00:00   433MB         |  cryptomatte.so: cryptomatte_filter uses Arnold 6.0.4.0
+00:00:00   433MB         |  cryptomatte.so: cryptomatte_manifest_driver uses Arnold 6.0.4.0
+00:00:00   433MB         |  synColor_shaders.so: color_manager_syncolor uses Arnold 6.0.4.0
+00:00:00   433MB         |  alembic_proc.so: alembic uses Arnold 6.0.4.0
+00:00:00   438MB         |  usd_proc.so: usd uses Arnold 6.0.4.0
+00:00:00   438MB         | loaded 6 plugins from 4 lib(s) in 0:00.07
+libai.so already loaded
+00:02:00   769MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:02:00   770MB WARNING | [AiMakeTx] OpenEXR "dwaa" compression has a bug for monochrome images, using "zip" instead
+00:02:02   772MB WARNING | [mtoa.autotx]  /course/cs125_projects/elevator/elevator/sets/apartment_set/full_sets/images/wood_text.tx is referenced multiple times with different color spaces
+00:02:07   794MB WARNING |  /cameras/shot4/shot4Shape: ignoring scaling component in camera matrix
+00:02:07   794MB WARNING |  /cameras/camera_stew_entering_elevator/camera_stew_entering_elevatorShape: ignoring scaling component in camera matrix
+00:02:07   794MB WARNING |  /cameras/behind_butternut/behind_butternutShape: ignoring scaling component in camera matrix
+00:02:07   794MB WARNING |  /cameras/inside_elev/inside_elevShape: ignoring scaling component in camera matrix
